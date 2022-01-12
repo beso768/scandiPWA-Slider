@@ -345,6 +345,8 @@ export class Checkout extends PureComponent {
 
     return <CmsBlock identifier={promo} />;
   }
+
+  //   this is slider component fn
   renderSlider() {
     const { checkoutStep } = this.props;
 

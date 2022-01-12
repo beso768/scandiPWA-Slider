@@ -106,7 +106,6 @@
     background: var(--breadcrumbs-background);
     min-height: var(--breadcrumbs-height);
     display: flex;
-    width: 100vw;
     justify-content: space-around;
     position: relative;
 
@@ -132,7 +131,7 @@
       height: 10px;
       top: 50%;
       left: 0;
-      transform: translate(-0px, -60%);
+      transform: translate(-0px, -30%);
       background-color: $default-secondary-dark-color;
 
       .sliderStep {
